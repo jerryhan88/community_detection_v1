@@ -5,8 +5,8 @@ from datetime import datetime
 import numpy as np
 import csv
 #
+from __util_logger import get_logger
 from __path_organizer import TAXI_RAW_DATA_HOME, dp_dpath
-from _utils.logger import get_logger
 
 logger = get_logger()
 ss_dpath = opath.join(dp_dpath, '1_singleShift')
